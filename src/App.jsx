@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
-import HomePage from "./pages/home-page";
-import LoginPage from "./pages/Login-page";
-import RegisterPage from "./pages/register-page";
-import NotFound from "./pages/404";
-import ProfilePage from "./pages/profile-page";
+import HomePage from "./pages/homePages";
+import LoginPage from "./pages/loginPages";
+import RegisterPage from "./pages/registerPages";
+import NotFound from "./pages/404NotFound";
+import ProfilePage from "./pages/profilePages";
 const App = () => {
   return (
     <Router>
