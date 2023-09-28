@@ -1,0 +1,69 @@
+<svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="47" height="47" fill="#F5F5F5"/>
+<g id="Web - Home - Pelamar" clip-path="url(#clip0_388_263)">
+<rect width="1440" height="2124" transform="translate(-171 -519)" fill="white"/>
+<rect id="Rectangle 6" x="-21" y="-519" width="1139" height="2124" fill="white"/>
+<g id="rekomendasi-preferensi">
+<mask id="mask0_388_263" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-171" y="-111" width="1440" height="1341">
+<rect id="Rectangle 43" x="-171" y="-111" width="1440" height="1341" fill="#F7F8FB"/>
+</mask>
+<g mask="url(#mask0_388_263)">
+<rect id="Rectangle 44" x="-171" y="-111" width="1440" height="1341" fill="#F7F8FB"/>
+<g id="div">
+<g id="direkomendasikan">
+<mask id="mask1_388_263" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-21" y="-61" width="1139" height="129">
+<rect id="Rectangle 45" x="-21" y="-61" width="1139" height="129" fill="#F7F8FB"/>
+</mask>
+<g mask="url(#mask1_388_263)">
+<rect id="Rectangle 46" x="-21" y="-61" width="1139" height="129" fill="#F7F8FB"/>
+<g id="daftar-sekarang">
+<rect id="Rectangle 47" x="-21" y="-21" width="1139" height="89" rx="10" fill="white"/>
+<g id="ic-pencil">
+<path id="Vector" d="M47 0H0V47H47V0Z" fill="white"/>
+<g id="Group">
+<g id="Group_2">
+<g id="Mask group">
+<mask id="mask2_388_263" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="36" height="46">
+<g id="Group_3">
+<path id="Vector_2" d="M0.979004 0.151855H35.1216V45.8065H0.979004V0.151855Z" fill="#EDEDED"/>
+</g>
+</mask>
+<g mask="url(#mask2_388_263)">
+<path id="Vector_3" fill-rule="evenodd" clip-rule="evenodd" d="M0.986025 22.5177C1.21894 30.0872 5.91135 38.1171 12.2023 42.1381C16.8095 45.0829 23.1885 47.2423 28.395 44.6424C33.0544 42.3159 34.4534 37.7039 35.0954 32.8879C35.0954 32.8879 35.5951 29.1396 32.2219 24.7668C31.4755 23.7991 31.3745 21.6407 31.2393 20.5015C30.875 17.4337 31.8738 14.5928 31.9252 11.5719C31.9505 10.0832 31.5563 8.4443 31.1316 7.01464C30.0814 3.47935 27.7571 0.0890676 23.6866 0.152989C23.6866 0.152989 14.9797 0.777632 13.2306 7.64946C13.2306 7.64946 12.231 14.6462 7.23336 14.2714C7.23336 14.2714 0.736259 14.3965 0.986025 22.5177Z" fill="#EDEDED"/>
+</g>
+</g>
+</g>
+<g id="Group_4">
+<path id="Vector_4" fill-rule="evenodd" clip-rule="evenodd" d="M10.438 34.1654C10.0147 35.7216 11.4819 35.3453 11.4819 35.3453L13.391 34.8676C12.6868 34.1865 11.4618 33.0055 10.8047 32.3933L10.438 34.1654Z" fill="#202D60"/>
+<path id="Vector_5" fill-rule="evenodd" clip-rule="evenodd" d="M16.3431 32.8212C15.8593 32.4114 14.9417 32.8356 14.9417 32.8356C15.1415 32.3614 15.1957 31.8582 14.6633 31.3882C14.0256 30.8249 13.108 31.3467 13.108 31.3467C13.3804 30.9655 13.4701 30.2887 12.872 29.8035C12.0571 29.1424 11.4293 29.3729 11.4293 29.3729L10.8042 32.3935C11.4613 33.0056 12.6862 34.1865 13.3905 34.8677L16.9805 33.9693C16.9425 33.6511 16.9805 33.3617 16.3431 32.8212Z" fill="#FEFEFE"/>
+<path id="Vector_6" fill-rule="evenodd" clip-rule="evenodd" d="M39.8456 8.13853C39.5058 7.51388 39.0553 7.15738 39.0553 7.15738L36.7695 5.26948C34.4838 3.38159 33.0142 5.26948 33.0142 5.26948L11.4297 29.3729C11.4297 29.3729 11.8474 29.2198 12.4432 29.522C12.578 29.5901 12.7219 29.6814 12.8724 29.8033C13.4703 30.2887 13.3806 30.9655 13.1084 31.3467C13.1084 31.3467 14.0259 30.8247 14.6636 31.388C15.1959 31.8582 15.1417 32.3613 14.9419 32.8354C14.9419 32.8354 15.8597 32.4112 16.3433 32.821C16.9809 33.3615 16.9429 33.6509 16.9809 33.9693C16.9809 33.9693 36.443 15.0526 39.0553 12.1348C40.5824 10.4291 40.3237 9.01764 39.8456 8.13853Z" fill="#5D479C"/>
+<path id="Vector_7" fill-rule="evenodd" clip-rule="evenodd" d="M39.0553 7.15746L36.7695 5.26942C34.4838 3.38167 33.0142 5.26942 33.0142 5.26942L11.4297 29.3728C11.4297 29.3728 11.8474 29.2199 12.4433 29.5221C15.662 26.2353 31.6234 9.96653 33.7114 8.39187C35.9042 6.7378 37.7846 6.79306 39.8456 8.13861C39.5058 7.51397 39.0553 7.15746 39.0553 7.15746Z" fill="#1B1B1B" fill-opacity="0.2"/>
+<g id="Group_5">
+<g id="Mask group_2">
+<mask id="mask3_388_263" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="26" y="33" width="20" height="3">
+<g id="Group_6">
+<path id="Vector_8" d="M26.498 33.9673H45.0993V35.5535H26.498V33.9673Z" fill="#9CA3CD"/>
+</g>
+</mask>
+<g mask="url(#mask3_388_263)">
+<path id="Vector_9" fill-rule="evenodd" clip-rule="evenodd" d="M44.3069 35.5532H27.2916C26.8535 35.5532 26.4985 35.198 26.4985 34.7602C26.4985 34.3223 26.8535 33.9673 27.2916 33.9673H44.3069C44.7448 33.9673 45.0999 34.3223 45.0999 34.7602C45.0999 35.198 44.7448 35.5532 44.3069 35.5532Z" fill="#9CA3CD"/>
+</g>
+</g>
+</g>
+<path id="Vector_10" fill-rule="evenodd" clip-rule="evenodd" d="M24.1739 35.5537H19.3052C18.8673 35.5537 18.5122 35.1985 18.5122 34.7606C18.5122 34.3228 18.8673 33.9678 19.3052 33.9678H24.1739C24.612 33.9678 24.9669 34.3228 24.9669 34.7606C24.9669 35.1985 24.612 35.5537 24.1739 35.5537Z" fill="#9CA3CD"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_388_263">
+<rect width="1440" height="2124" fill="white" transform="translate(-171 -519)"/>
+</clipPath>
+</defs>
+</svg>

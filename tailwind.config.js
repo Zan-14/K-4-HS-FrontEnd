@@ -7,10 +7,9 @@ export default {
         'textGray': "#666666",
         'bgGray': "#F7F8FB",
         'pink-1000': "#e60278",
-
       },
       backgroundImage: {
-        'home-banner': "url('public/assets/HomeBanner.png')",
+        'homeBanner': "url('/img/HomeBanner.PNG')",
       },
     },
   },
