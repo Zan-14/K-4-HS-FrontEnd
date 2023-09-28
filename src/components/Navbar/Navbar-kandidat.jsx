@@ -5,7 +5,10 @@ const NavbarKandidat = () => {
     <header className="bg-white">
       <div className="flex justify-between items-center p-5 container mx-auto">
         <div className="flex items-center gap-5">
-          <Link className="text-3xl font-extrabold  text-blue-900">
+          <Link
+            to="/home-kandidat"
+            className="text-3xl font-extrabold  text-blue-900"
+          >
             JobStreet
           </Link>
           <Link
@@ -41,13 +44,13 @@ const NavbarKandidat = () => {
             Untuk Perusahaan
           </Link>
           <Link
-            to=""
+            to="/register"
             className="px-5 py-2 bg-pink-1000 text-slate-50 font-semibold rounded-lg"
           >
             Daftar
           </Link>
           <Link
-            to=""
+            to="/login"
             className="px-5 py-2 bg-blue-900 text-slate-50 font-semibold rounded-lg"
           >
             Masuk
