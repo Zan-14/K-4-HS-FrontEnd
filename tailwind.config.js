@@ -7,6 +7,10 @@ export default {
         'textGray': "#666666",
         'bgGray': "#F7F8FB",
         'pink-1000': "#e60278",
+        'graybg': '#F6F6F6',
+        'graytext': '#545b6a',
+        'grayborder': '#D9D9D9',
+        'bluetext': '#1c3f94',
       },
       backgroundImage: {
         'homeBanner': "url('/img/HomeBanner.PNG')",

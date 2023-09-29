@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const NavbarCompanyProfile = () => {
   return (
-    <header className="shadow-md fixed w-full z-[1] bg-white">
+    <header className="shadow-md w-full z-[1] bg-white">
       <div className="flex justify-between items-center p-5 container mx-auto">
         <div className="">
           <Link to="/" className="text-5xl font-bold text-blue-900">
@@ -15,17 +15,24 @@ const Navbar = () => {
               Untuk Kandidat
             </button>
           </Link>
-          <Link
-            to="/register"
-            className="px-5 py-2 bg-pink-600 text-slate-50 font-semibold rounded-lg"
-          >
-            Daftar
-          </Link>
-          <Link
-            to="/login"
-            className="px-5 py-2 bg-blue-900 text-slate-50 font-semibold rounded-lg"
-          >
-            Masuk
+          <div className="flex items-center gap-3">
+            <div className="inline-block">
+              <img
+                className="h-8 w-8"
+                src="img/fotoProfilPerusahaan.png"
+                alt="Foto Profil Perusahaan"
+              />
+            </div>
+            <div className="inline-block">
+              <p className="font-inter text-xs text-graytext">
+                PT. Kelompok Empat
+              </p>
+            </div>
+          </div>
+          <Link to="/login">
+            <button className="px-5 py-2 bg-blue-900 text-slate-50 font-semibold rounded-lg hover:bg-blue-700">
+              Logout
+            </button>
           </Link>
         </div>
       </div>
@@ -47,4 +54,4 @@ const Navigation = () => {
   );
 };
 
-export default Navbar;
+export default NavbarCompanyProfile;
