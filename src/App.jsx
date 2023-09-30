@@ -5,6 +5,7 @@ import NotFound from "./pages/404NotFound";
 import ProfilePage from "./pages/Company/profilePages";
 import RegisterPages from "./pages/Company/registerPages";
 import HomePageKandidat from "./pages/Kandidat/home-page-kandidat";
+import JobListPageKandidat from "./pages/Kandidat/job-list-kandidat";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/register" element={<RegisterPages />} />
         <Route path="/profile" element={<ProfilePage />} />
         <Route path="/home-kandidat" element={<HomePageKandidat />} />
+        <Route path="/job-list" element={<JobListPageKandidat />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
