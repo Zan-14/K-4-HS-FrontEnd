@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { BsFillEyeFill } from "react-icons/bs";
+// import { BsFillEyeFill } from "react-icons/bs";
 import InputForm from "./InputForm";
 
 const Forms = () => {
@@ -19,9 +19,7 @@ const Forms = () => {
       <div className="mt-5">
         <div className="flex items-center justify-between">
           <label className="font-semibold">Kata Sandi</label>
-          <button>
-            <BsFillEyeFill className="mr-2" />
-          </button>
+          <button>{/* <BsFillEyeFill className="mr-2" /> */}</button>
         </div>
         <input type="passwords" className="h-10 border w-full rounded-lg" />
       </div>

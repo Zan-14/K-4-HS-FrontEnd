@@ -1,11 +1,33 @@
-import Navbar from "../../components/Navbar/Navbar";
-import Footer from "../../components/Footer/Footer";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import LoginForm from "../../components/Forms/LoginForm";
+import auth from "../../utils/auth";
 
 const LoginPage = () => {
+  const navigate = useNavigate();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    const { username, password } = Object.fromEntries(formData);
+
+    fetch("https://dummyjson.com/auth/login", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        username,
+        password,
+      }),
+    }).then(async (res) => {
+      if (res.status === 400)
+        return alert("your username or password is wrong");
+      const { token } = await res.json();
+      auth.userAuthCredentials(token);
+      return navigate("/");
+    });
+  };
+
   return (
     <>
-      <Navbar />
       <div className="flex min-h-screen justify-center items-center font-montserrat bg-[#E5E5E5]">
         <div>
           <div className="question text-center p-[50px] text-[14px] leading-[17.07px]">
@@ -61,53 +83,12 @@ const LoginPage = () => {
                 Login Perusahaan
               </h3>
               <div className="pt-[15px]">
-                <form action="">
-                  <div className="w-[365px] h-[57px] top-[324px] left-[795px] mt-[10px]">
-                    <label
-                      htmlFor=""
-                      className="text-[12px] font-[300] text-[#666666] leading-[14.63px]"
-                    >
-                      Login ID Perusahaan
-                    </label>
-                    <br />
-                    <input
-                      className="w-[365px] h-[35px] bg-[#EEEEEE] text-[14px] rounded-[5px] pl-[10px] font-[500] border-none outline-none leading-[17.07px]"
-                      type="text"
-                      placeholder="Login ID"
-                    />
-                  </div>
-                  <div className="w-[365px] h-[57px] top-[324px] left-[795px] mt-[10px]">
-                    <label
-                      htmlFor=""
-                      className="text-[12px] font-[300] text-[#666666] leading-[14.63px]"
-                    >
-                      Kata sandi
-                    </label>
-                    <br />
-                    <input
-                      className="w-[365px] h-[35px] bg-[#EEEEEE] text-[14px] rounded-[5px] pl-[10px] font-[500] border-none outline-none leading-[17.07px]"
-                      type="password"
-                      placeholder="Password"
-                    />
-                  </div>
-                  <div className="pt-[10px] text-[12px] font-[400] text-[#0575B3] text-right">
-                    <Link href="#">Lupa kata sandi ?</Link>
-                  </div>
-                  <div>
-                    <button
-                      className="w-[365px] h-[35px] bg-[#E60278] text-[#fff] rounded-[5px] p-[8px] text-[15px] mt-[30px] font-[600] border-none outline-none cursor-pointer leading-[18.29px]"
-                      type="submit"
-                    >
-                      Masuk
-                    </button>
-                  </div>
-                </form>
+                <LoginForm handleOnCLick={handleSubmit} />
               </div>
             </div>
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 };

@@ -1,12 +1,9 @@
 import { Link } from "react-router-dom";
 import Forms from "../../components/Forms/Forms";
-import Navbar from "../../components/Navbar/Navbar";
-import Footer from "../../components/Footer/Footer";
 
 const RegisterPages = () => {
   return (
     <>
-      <Navbar />
       <div className="py-52 flex flex-col min-h-screen justify-center items-center bg-[#E5E5E5]">
         <p className="mb-5">
           Apakah anda mencari pekerjaan?
@@ -23,7 +20,6 @@ const RegisterPages = () => {
           <Forms />
         </form>
       </div>
-      <Footer />
     </>
   );
 };
