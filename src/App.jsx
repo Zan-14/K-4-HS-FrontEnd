@@ -6,6 +6,7 @@ import ProfilePage from "./pages/Company/profilePages";
 import Perusahaan from "./pages/Company/perusahaan";
 import RegisterPages from "./pages/Company/perusahaan";
 import HomePageKandidat from "./pages/Kandidat/home-page-kandidat";
+import JobSearchKandidat from "./pages/Kandidat/job-page-kandidat";
 
 const App = () => {
   return (
