@@ -1,12 +1,8 @@
 import { Link } from "react-router-dom";
-import Navbar from "../../components/Navbar/Navbar";
-import Footer from "../../components/Footer/Footer";
 
 const HomePage = () => {
   return (
     <div>
-      <Navbar />
-      {/* Section */}
       <section className="pt-28 font-montserrat">
         <div className="w-[80%] m-auto min-h-[200px]">
           <section className="flex p-[5em] items-center justify-between">
@@ -313,7 +309,6 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-      <Footer />
     </div>
   );
 };
