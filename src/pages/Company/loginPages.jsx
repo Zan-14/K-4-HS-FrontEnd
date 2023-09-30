@@ -1,6 +1,8 @@
 import { Link, useNavigate } from "react-router-dom";
 import LoginForm from "../../components/Forms/LoginForm";
 import auth from "../../utils/auth";
+import NavAuth from "../../components/Navbar/NavabarAuth/NavAuth";
+import Footer from "../../components/Footer/Footer";
 
 const LoginPage = () => {
   const navigate = useNavigate();
@@ -28,7 +30,8 @@ const LoginPage = () => {
 
   return (
     <>
-      <div className="flex min-h-screen justify-center items-center font-montserrat bg-[#E5E5E5]">
+      <NavAuth to="/" />
+      <div className="flex pb-40 justify-center items-center font-montserrat bg-[#E5E5E5]">
         <div>
           <div className="question text-center p-[50px] text-[14px] leading-[17.07px]">
             <p>
@@ -89,6 +92,7 @@ const LoginPage = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
