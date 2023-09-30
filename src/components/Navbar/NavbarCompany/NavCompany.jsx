@@ -19,7 +19,7 @@ const NavCompany = () => {
             <Button>
               <Button.Default navigate={() => links("/home-kandidat")} />
               <Button.register navigate={() => links("/register")} />
-              <Button.login navigate={() => links("/")} />
+              <Button.login navigate={() => links("/login")} />
             </Button>
           </div>
         ) : (
