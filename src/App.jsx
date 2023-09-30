@@ -5,16 +5,29 @@ import NotFound from "./pages/404NotFound";
 import ProfilePage from "./pages/Company/profilePages";
 import RegisterPages from "./pages/Company/registerPages";
 import HomePageKandidat from "./pages/Kandidat/home-page-kandidat";
+import ProtectedRoute from "./routers/protectedRoute";
+import PrivateRoute from "./routers/privateRoute";
+import LayoutCompany from "./layout/LayoutCompany";
 
 const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/login" element={<LoginPage />} />
-        <Route path="/register" element={<RegisterPages />} />
-        <Route path="/profile" element={<ProfilePage />} />
+        <Route path="/" element={<PrivateRoute />}>
+          <Route path="/profile" element={<ProfilePage />} />
+        </Route>
+
+        <Route path="/" element={<LayoutCompany />}>
+          <Route index element={<HomePage />} />
+        </Route>
+
+        <Route path="/" element={<ProtectedRoute />}>
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/register" element={<RegisterPages />} />
+        </Route>
+
         <Route path="/home-kandidat" element={<HomePageKandidat />} />
+
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
